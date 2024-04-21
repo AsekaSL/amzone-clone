@@ -1,0 +1,135 @@
+.heading{
+    background-color: rgb(19, 25, 33);
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.left-heading{
+    width: 200px;
+    margin-right: 100px;
+}
+.amazon-button{
+    background-color:rgb(19, 25, 33);
+    border-width: 1px;
+    border-color: rgb(19, 25, 33);
+    border-style: solid;
+    border-radius: 2px;
+    padding: 7px 11px; 
+    cursor: pointer;
+    transition: border-color 0.12s;
+}
+.amazon-button:hover{
+    border-color: white;
+}
+.amazon-image{
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: -5px;
+}
+.center-heading{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    flex: 1;
+    max-width: 1800px;
+}
+.search-tab{
+    font-family: Roboto, Arial;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    padding-left: 15px;
+    width: 501.4px;
+    flex: 1;
+}
+.search-tab::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 15.5px;
+}
+.search-tab:focus{
+    border: none;
+    outline-width: 2px;
+    outline-color:rgb(240, 136, 4);
+    outline-style: solid;
+}
+.search-button{
+    border: none;
+    width: 48px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(254, 189, 105);
+    cursor: pointer;
+}
+.search-image{
+    width: 24px;
+    height: 24px;
+    margin-top: 5px;
+}
+.right-heading{
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    margin-left: 130px;
+    flex-shrink: 0;
+}
+.right-heading button{
+    border-width: 1px;
+    border-color:rgb(19, 25, 33);
+    border-style: solid;
+    background-color:rgb(19, 25, 33);
+    color: white;
+    font-family: Roboto, Arial;
+    border-radius: 2px;
+    transition: border-color 0.12s;
+    cursor: pointer;
+    height: 48px;
+}
+.right-heading button:hover{
+    border-color: white;
+}
+.return{
+    margin-left: -10px;
+}
+.order{
+    font-weight: 700;
+    display: block;
+}
+.cart-button{
+    width: 100px;
+    height: 48px;
+}
+.cart-image{
+    width: 48px;
+    margin-top: 5px;
+    margin-left: -40px;
+}
+.cart{
+    position: relative;
+}
+.cart-count{
+    position: absolute;
+    color: rgb(240, 136, 4);
+    font-family: Roboto, Arial;
+    font-weight: 700;
+    font-size: 17px;
+    top: 5px;
+    left: 30px;
+}
+.cart-name{
+    font-family: Roboto, Arial;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-weight: 700;
+    font-size: 15px;
+}

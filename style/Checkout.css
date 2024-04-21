@@ -1,0 +1,242 @@
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: white;
+}
+.left-heading{
+    width: 100px;
+    height: 80px;
+    padding-top: 40px;
+}
+.amazon-picture{
+    width: 100px;
+    cursor: pointer;
+}
+.center-heading{
+    width: 200px;
+    height: 80px;
+    font-family: Roboto, Arial;
+    font-weight: bold;
+    font-size: 23px;
+    padding-top: 40px;
+}
+.items{
+    color: rgb(0, 113, 133);
+    cursor: pointer;
+}
+.items-link{
+    text-decoration: none;
+}
+.right-heading{
+    width: 50px;
+    height: 80px;
+    padding-top: 40px;
+    padding-left: 150px;
+    padding-right: 0px;
+}
+.lock-picture{
+    margin-right: 0px;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.product{
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    height: 640px;
+    width: 1110px;
+    margin-top: 130px;
+}
+.product-summary-heading{
+    font-family: Roboto, Arial;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.products-details{
+    display: grid;
+    grid-template-columns: 700px 350px;
+    column-gap: 75px;
+}
+.product-details-information{
+    display: flex;
+    flex-direction: column;
+}
+.product-checkout{
+    width: 740px;
+    height: 300px;
+    display: grid;
+    grid-template-rows: 50px 230px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.delivery-date{
+    font-family: Roboto, Arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 118, 0);
+    padding-top: 20px;
+}
+.product-information-grid{
+    display: grid;
+    grid-template-columns: 120px 320px 300px;
+    margin-top: 15px;
+}
+.product-pic{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.product-price{
+    color: rgb(177, 39, 4);
+}
+.product-name,
+.product-price{
+    font-weight: bold;
+}
+.product-name,
+.product-price,
+.product-quantity{
+    font-family: Roboto, Arial;
+    margin-bottom: 7px;
+}
+.update,
+.delete,
+.save-quantity-input{
+    color: #017cb6;
+    cursor:pointer;
+    transition: color 0.12s;
+}
+.update:hover,
+.delete:hover,
+.save-quantity-input:hover{
+    color:rgb(177, 39, 4);
+}
+.product-checkout,
+.product-summary{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: rgb(230, 230, 230);
+}
+.product-delivery-option{
+    font-family: Roboto, Arial;
+    margin-top: -15px;
+}
+.delivery-option-name{
+    font-weight: 700;
+}
+.delivery-option{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.radio-button{
+    width: 20px;
+    cursor: pointer;
+}
+.shipping{
+    margin-left: 10px;
+}
+.shipping p{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.shipping-date{
+    color: rgb(0, 118, 0);
+    font-weight: 700;
+}
+.free-shipping{
+    color: grey;
+}
+.product-summary{
+    height: 360px;
+    font-family: Roboto, Arial;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.product-summary-name{
+    font-weight: bold;
+    font-size: 18px;
+}
+.product-summary div,
+.product-summary button{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.order-items-price,
+.shipping-handiling,
+.tax-before-price,
+.tax-price,
+.total-price{
+    justify-content: space-between;
+}
+.paypal-price{
+    align-items: center;
+}
+.paypal-name{
+    margin-right: 10px;
+}
+.checkbox{
+    width: 23px;
+    height: 23px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+.small-line{
+    width: 50px;
+    margin-right: 0px;
+}
+.small-line,
+.big-line{
+    opacity: 0.45;
+}
+.paypal-price{
+    margin-right: 0px;
+}
+.total-price{
+    font-weight: bold;
+    color: rgb(177, 39, 4);
+}
+.place-order{
+    width: 300px;
+    height: 40px;
+    padding-left: 100px;
+    padding-top: 12px;
+    background-color: rgb(255, 216, 20);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.12s;
+}
+.place-order:hover{
+    background-color:rgb(241, 204, 19);
+}
+.quantity-input{
+    width: 30px;
+    display: none;
+}
+.save-quantity-input,
+.is-editing-quantity .update,
+.is-editing-quantity .js-quantity-count{
+    display: none;
+}
+
+.is-editing-quantity .quantity-input,
+.is-editing-quantity .save-quantity-input{
+    display: initial;
+}

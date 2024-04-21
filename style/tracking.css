@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.tracking-order-container{
+    margin-top: 70px;
+    width: 870px;
+    height: 500px;
+    display: grid;
+    grid-template-rows: 50px 300px 100px;
+}
+.all-orders{
+    font-family: Roboto, Arial;
+    padding-left: 8px;
+    padding-top: 10px;
+}
+.all-orders-name{
+    color: #017cb6;
+}
+.tracking-product-details{
+    padding-top: 10px;
+    padding-left: 8px;
+}
+.tracking-order-date{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.tracking-product-quantity{
+    margin-bottom: 30px;
+}
+.tracking-product-details div{
+    font-family: Roboto, Arial;
+}
+.tracking-show-case{
+    padding-left: 8px;
+    padding-top: 20px;
+}
+.tracking-picture{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.tracking-place{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 10px;
+}
+.tracking-place span{
+    font-family: Roboto, Arial;
+    font-size: 20.5px;
+    font-weight: 700;
+}
+.tracking-show{
+    width: 100%;
+    height: 24px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(136, 136, 136);
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+}
+.preparing{
+    color: green;
+}
+.show-green-line{
+    height: 24px;
+    background-color: green;
+    border-radius: 12px;
+    border-width: 0px;
+    border-style: solid;
+    animation: animate 1s linear;
+    width: 6%;
+}
+@keyframes animate{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 6%;
+    }
+}

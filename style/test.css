@@ -1,0 +1,20 @@
+p::first-letter{
+    font-size: 40px;
+    font-style: italic;
+}
+p::first-line{
+    color: skyblue;
+}
+#list1 li::before{
+    content: "😊";
+}
+#list2 li::after{
+    content: "😂";
+}
+li::marker{
+    color: silver;
+}
+p::selection{
+    color: white;
+    background-color: black;
+}
