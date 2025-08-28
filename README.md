@@ -15,24 +15,12 @@ A fully functional **Amazon-like e-commerce web application** built to demonstra
 ---
 
 ## 💻 Tech Stack
-- **Frontend:** React.js, HTML, CSS, JavaScript  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB  
-- **Authentication:** JWT (JSON Web Tokens)  
-- **Deployment:** (Optional: Vercel / Heroku / Netlify)  
-
----
-
-## 🖼 Screenshots
-*(Add screenshots of your project here)*  
-- Home Page  
-- Product Page  
-- Shopping Cart  
-- Admin Dashboard  
+- **Frontend:**  HTML, CSS, JavaScript  
+- **Backend:** Javascript
 
 ---
 
 ## 🚀 Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/USERNAME/amazon-clone.git
+   git clone https://github.com/AsekaSL/amzone-clone
